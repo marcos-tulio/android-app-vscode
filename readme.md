@@ -61,7 +61,7 @@ gradlew clean build
 
 ### Create an emulator
 ```
-avdmanager create avd -n "MyEmulator" -k "system-images;android-29;google_apis;x86_64" -d pixel_2
+avdmanager create avd -n "MyEmulator" -k "system-images;android-30;google_apis;x86_64" -d pixel_2
 ```
 
 ### Run emulator
@@ -78,13 +78,13 @@ gradlew installDebug
 ## Alternative to create the project
 
 ### Run this in the root of your project to create the necessary files
-´´´
+```
 gradle init --type basic
-´´´
+```
 
 ### Make the necessary directories
-´´´
+```
 mkdir app\src\main\java\io\github\marcos_tulio
 mkdir app\src\main\res\layout
 mkdir app\src\main\res\values
-´´´
+```
